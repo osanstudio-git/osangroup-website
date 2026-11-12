@@ -199,24 +199,24 @@ export class Navbar {
         <!-- Mobile & Tablet Floating Ribbon (Expands below lg when toggled) -->
         <div 
           id="mobile-nav-ribbon"
-          class="lg:hidden transition-all duration-300 overflow-hidden ${
-            this.isNavOpen ? 'max-h-[75vh] overflow-y-auto opacity-100 pointer-events-auto' : 'max-h-0 opacity-0 pointer-events-none'
+          class="lg:hidden transition-all duration-300 ${
+            this.isNavOpen ? 'max-h-[78vh] overflow-y-auto opacity-100 pointer-events-auto' : 'max-h-0 overflow-hidden opacity-0 pointer-events-none'
           }"
         >
-          <div class="mx-4 my-2 p-4 rounded-2xl bg-white/95 backdrop-blur-xl border border-osan-sky/80 shadow-elevated flex flex-col gap-2">
+          <div class="mx-3 sm:mx-4 my-2 p-2.5 sm:p-3 rounded-2xl bg-white/95 backdrop-blur-xl border border-osan-sky/75 shadow-[0_18px_45px_-12px_rgba(14,116,179,0.16)] flex flex-col gap-1">
             ${NAV_SECTIONS.map((item) => `
               <a 
                 href="#${item.id}" 
                 data-nav-target="${item.id}"
-                class="mobile-nav-link flex items-center justify-between px-3.5 py-2.5 rounded-xl text-sm font-bold transition-all ${
+                class="mobile-nav-link flex items-center justify-between px-3.5 py-2.5 rounded-xl text-[13.5px] tracking-wide transition-all ${
                   this.activeSection === item.id
-                    ? 'bg-osan-sky/70 text-osan-blue'
-                    : 'text-osan-ink hover:bg-osan-light hover:text-osan-blue'
+                    ? 'bg-osan-light text-osan-blue font-normal'
+                    : 'text-osan-ink font-light hover:bg-osan-light/70 hover:text-osan-blue'
                 }"
               >
                 <span>${isAr ? item.labelAr : item.labelEn}</span>
-                <svg class="w-4 h-4 text-osan-blue rtl:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                <svg class="w-4 h-4 text-osan-blue/75 rtl:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/>
                 </svg>
               </a>
             `).join('')}
@@ -342,8 +342,8 @@ export class Navbar {
       navLinksEl?.setAttribute('aria-hidden', 'false');
 
       // Expand mobile ribbon
-      mobileRibbon?.classList.remove('max-h-0', 'opacity-0', 'pointer-events-none');
-      mobileRibbon?.classList.add('max-h-96', 'opacity-100', 'pointer-events-auto');
+      mobileRibbon?.classList.remove('max-h-0', 'overflow-hidden', 'opacity-0', 'pointer-events-none');
+      mobileRibbon?.classList.add('max-h-[78vh]', 'overflow-y-auto', 'opacity-100', 'pointer-events-auto');
 
       // Swap button icons
       barsIcon?.classList.add('hidden');
@@ -368,8 +368,8 @@ export class Navbar {
       navLinksEl?.setAttribute('aria-hidden', 'true');
 
       // Collapse mobile ribbon
-      mobileRibbon?.classList.add('max-h-0', 'opacity-0', 'pointer-events-none');
-      mobileRibbon?.classList.remove('max-h-96', 'opacity-100', 'pointer-events-auto');
+      mobileRibbon?.classList.add('max-h-0', 'overflow-hidden', 'opacity-0', 'pointer-events-none');
+      mobileRibbon?.classList.remove('max-h-[78vh]', 'overflow-y-auto', 'opacity-100', 'pointer-events-auto');
 
       // Swap button icons
       barsIcon?.classList.remove('hidden');
@@ -429,11 +429,11 @@ export class Navbar {
     mobileLinks.forEach((link) => {
       const target = link.getAttribute('data-nav-target');
       if (target === sectionId) {
-        link.classList.add('bg-osan-sky/70', 'text-osan-blue');
-        link.classList.remove('text-osan-ink');
+        link.classList.add('bg-osan-light', 'text-osan-blue', 'font-normal');
+        link.classList.remove('text-osan-ink', 'font-light');
       } else {
-        link.classList.remove('bg-osan-sky/70', 'text-osan-blue');
-        link.classList.add('text-osan-ink');
+        link.classList.remove('bg-osan-light', 'text-osan-blue', 'font-normal');
+        link.classList.add('text-osan-ink', 'font-light');
       }
     });
 
