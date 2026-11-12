@@ -446,7 +446,7 @@ export class Navbar {
     const isDarkBg = false;
     const sectionId = _sectionId;
     const labelBase =
-      'scroll-tracker-label text-[10px] sm:text-[11px] tracking-wider uppercase transition-all duration-200 drop-shadow-xs whitespace-nowrap pointer-events-none opacity-0 group-hover:opacity-100 translate-x-2 rtl:-translate-x-2 group-hover:translate-x-0';
+      'scroll-tracker-label text-[10px] sm:text-[11px] tracking-wider rtl:tracking-normal uppercase transition-all duration-200 drop-shadow-xs whitespace-nowrap pointer-events-none opacity-0 group-hover:opacity-100 translate-x-2 rtl:-translate-x-2 group-hover:translate-x-0';
     const lineBase = 'scroll-tracker-line block rounded-full transition-all duration-300';
 
     const trackerItems = this.container.querySelectorAll<HTMLElement>('.scroll-tracker-item');
