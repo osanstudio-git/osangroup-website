@@ -23,6 +23,17 @@ export class Hero {
     return this.container;
   }
 
+  private renderSplitWords(text: string): string {
+    return text
+      .trim()
+      .split(/\s+/)
+      .map(
+        (word, idx) =>
+          `<span class="split-word-mask"><span class="split-word" style="--word-index: ${idx};">${word}</span></span>`
+      )
+      .join(' ');
+  }
+
   private render(): void {
     const isAr = i18n.isRTL();
     const t = (k: string, fb: string) => i18n.t(k, fb);
@@ -59,14 +70,12 @@ export class Hero {
 
             <!-- Subheadline (Split-Text Word Reveal + Slim Typography) -->
             <p id="home-hero-subheadline" class="reveal-split-text text-sm sm:text-base md:text-lg text-osan-grey text-center max-w-3xl leading-relaxed mb-8 sm:mb-10 font-light" style="--split-base-delay: 120ms;">
-              ${t('home.hero.subheadline', 'Founded in 2016, OSAN GROUP is a multi-sector Omani corporate powerhouse delivering end-to-end ecosystems across business advisory, financial audit, corporate services, real estate, creative media, and strategic investments.')
-                .trim()
-                .split(/\s+/)
-                .map(
-                  (word, idx) =>
-                    `<span class="split-word-mask"><span class="split-word" style="--word-index: ${idx};">${word}</span></span>`
+              ${this.renderSplitWords(
+                t(
+                  'home.hero.subheadline',
+                  'Founded in 2016, OSAN GROUP is a multi-sector Omani corporate powerhouse delivering end-to-end ecosystems across business advisory, financial audit, corporate services, real estate, creative media, and strategic investments.'
                 )
-                .join(' ')}
+              )}
             </p>
 
             <!-- Primary Call to Action Buttons (Refined Weight) -->
@@ -109,10 +118,12 @@ export class Hero {
               : 'A Decade of Institutional Excellence & Strategic Alliances'}
           </h2>
 
-          <p class="reveal-text-fade max-w-2xl text-xs sm:text-sm text-osan-grey font-light leading-relaxed" style="--reveal-delay: 100ms;">
-            ${isAr
-              ? 'تأسست مجموعة أوسان عام ٢٠١٦ كشركة عُمانية رائدة برؤية طموحة، تقدم منظومة متكاملة من الخدمات التي تلبي احتياجات الأفراد ورواد الأعمال والمستثمرين في مختلف القطاعات الحيوية.'
-              : 'Established in 2016 as an ambitious Omani enterprise, OSAN GROUP delivers an integrated ecosystem of corporate solutions serving individuals, entrepreneurs, and global investors across vital sectors.'}
+          <p id="about-lead-text" class="reveal-split-text max-w-2xl text-xs sm:text-sm text-osan-grey font-light leading-relaxed" style="--split-base-delay: 100ms;">
+            ${this.renderSplitWords(
+              isAr
+                ? 'تأسست مجموعة أوسان عام ٢٠١٦ كشركة عُمانية رائدة برؤية طموحة، تقدم منظومة متكاملة من الخدمات التي تلبي احتياجات الأفراد ورواد الأعمال والمستثمرين في مختلف القطاعات الحيوية.'
+                : 'Established in 2016 as an ambitious Omani enterprise, OSAN GROUP delivers an integrated ecosystem of corporate solutions serving individuals, entrepreneurs, and global investors across vital sectors.'
+            )}
           </p>
 
           <!-- Pure Continuous Official Emblem Showcase (Compact Proportions) -->
