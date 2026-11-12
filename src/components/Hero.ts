@@ -110,7 +110,7 @@ export class Hero {
       <!-- Positioned after Home (#home), before Leadership (#chairmans-word) -->
       <!-- Fits 100% in viewport without vertical overflow/clipping -->
       <!-- ======================================================== -->
-      <section id="about" class="relative bg-white min-h-screen lg:h-screen lg:max-h-screen flex flex-col justify-center items-center py-14 sm:py-16 lg:py-5 px-4 sm:px-6 lg:px-8 border-t border-osan-sky/60 overflow-hidden scroll-mt-0">
+      <section id="about" class="relative bg-white min-h-screen lg:h-screen lg:max-h-screen flex flex-col justify-center items-center pt-20 pb-12 sm:pt-24 sm:pb-16 lg:py-5 px-4 sm:px-6 lg:px-8 border-t border-osan-sky/60 overflow-hidden scroll-mt-0">
         <div class="max-w-5xl mx-auto w-full flex flex-col items-center text-center space-y-3 sm:space-y-4">
           <h2 class="reveal-text-fade text-2xl sm:text-3xl md:text-4xl font-heading font-light sm:font-normal text-osan-ink tracking-tight max-w-3xl leading-snug">
             ${isAr 

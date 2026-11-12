@@ -6,7 +6,7 @@ export type Language = 'en' | 'ar';
 export type TranslationDictionary = typeof enData;
 
 class I18nManager {
-  private currentLang: Language = 'en';
+  private currentLang: Language = 'ar';
   private dictionaries: Record<Language, any> = {
     en: enData,
     ar: arData,
@@ -14,14 +14,12 @@ class I18nManager {
   private listeners: Set<(lang: Language) => void> = new Set();
 
   constructor() {
-    // Check localStorage or default
+    // Check localStorage or default to Arabic
     const saved = localStorage.getItem('osan_group_lang') as Language | null;
     if (saved === 'en' || saved === 'ar') {
       this.currentLang = saved;
     } else {
-      // Default to Arabic if browser is Arabic, otherwise English
-      const browserLang = navigator.language?.toLowerCase() || '';
-      this.currentLang = browserLang.startsWith('ar') ? 'ar' : 'en';
+      this.currentLang = 'ar';
     }
     this.applyDocumentAttributes();
   }

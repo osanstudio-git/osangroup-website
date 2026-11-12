@@ -31,7 +31,7 @@ export class About {
       <!-- ======================================================== -->
       <!-- 1. FOUNDER & CEO MESSAGE (PRESTIGIOUS EXECUTIVE FULLPAGE) -->
       <!-- ======================================================== -->
-      <section id="chairmans-word" class="relative bg-gradient-to-b from-[#FAFBFD] via-[#F4F8FB] to-white min-h-screen lg:h-screen lg:max-h-screen flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8 py-14 sm:py-16 lg:py-6 border-t border-osan-sky/70 overflow-hidden scroll-mt-0">
+      <section id="chairmans-word" class="relative bg-gradient-to-b from-[#FAFBFD] via-[#F4F8FB] to-white min-h-screen lg:h-screen lg:max-h-screen flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8 pt-20 pb-12 sm:pt-24 sm:pb-16 lg:py-6 border-t border-osan-sky/70 overflow-hidden scroll-mt-0">
         
         <!-- Ambient Executive Backlight Auras -->
         <div data-parallax="-0.24" class="absolute -top-32 left-1/4 w-96 h-96 bg-osan-blue/5 rounded-full blur-3xl pointer-events-none"></div>
