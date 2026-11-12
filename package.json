@@ -1,0 +1,26 @@
+{
+  "name": "osan-group-website",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/three": "^0.174.0",
+    "animejs": "^4.0.0-beta.98",
+    "lenis": "^1.1.20",
+    "lucide": "^0.475.0",
+    "three": "^0.174.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.3",
+    "potrace": "^2.1.8",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.3",
+    "vite": "^6.2.0"
+  }
+}

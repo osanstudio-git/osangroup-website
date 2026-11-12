@@ -1,0 +1,309 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "companies": "Companies & Brands",
+    "sectors": "Sectors & Services",
+    "icv": "In-Country Value (ICV)",
+    "contact": "Contact Us",
+    "partner_cta": "Partner With Us"
+  },
+  "footer": {
+    "tagline": "OSAN GROUP — Building integrated ecosystems for business growth, investment success, and national development across the Sultanate of Oman.",
+    "quick_links": {
+      "title": "Quick Links",
+      "about": "About Osan",
+      "companies": "Subsidiaries",
+      "finance": "Financial & Audit",
+      "business_centers": "Business Centers",
+      "contact": "Contact"
+    },
+    "copyright": "© 2026 OSAN GROUP. All Rights Reserved."
+  },
+  "home": {
+    "hero": {
+      "headline": "Empowering Enterprise. Accelerating Investment. Driving Oman’s Tomorrow.",
+      "subheadline": "Founded in 2016, OSAN GROUP is a multi-sector Omani corporate powerhouse delivering end-to-end ecosystems across business advisory, financial audit, corporate services, real estate, creative media, and strategic investments.",
+      "primary_cta": "Explore Our Companies",
+      "secondary_cta": "Contact Head Office"
+    },
+    "metrics": {
+      "companies": {
+        "value": "12",
+        "label": "Operating Companies & Brands",
+        "desc": "Delivering integrated market solutions"
+      },
+      "sectors": {
+        "value": "+9",
+        "label": "Core Business Sectors",
+        "desc": "Spanning consulting, logistics, real estate & media"
+      },
+      "omanization": {
+        "value": "61%",
+        "label": "Omanization Rate",
+        "desc": "Dedicated to national workforce empowerment"
+      },
+      "team": {
+        "value": "44",
+        "label": "Core Team Members",
+        "desc": "Multi-disciplinary industry professionals"
+      },
+      "partnerships": {
+        "value": "7",
+        "label": "Strategic Partnerships",
+        "desc": "Driving global and regional value creation"
+      },
+      "clients_served": {
+        "value": "+3,000",
+        "label": "Clients & Businesses Supported",
+        "desc": "Backed by OSBIC’s 15+ years of regional heritage"
+      }
+    },
+    "about_snippet": {
+      "title": "Integrated Corporate Solutions",
+      "text": "Since our inception in 2016, OSAN GROUP has steadily transformed into a forward-looking conglomerate in the Sultanate of Oman. By building specialized subsidiaries and cultivating strategic public and private alliances, we provide comprehensive, one-stop business and lifestyle infrastructure for individuals, SMEs, and institutional investors alike."
+    }
+  },
+  "about": {
+    "title": "About OSAN GROUP",
+    "ceo_message": {
+      "title": "Founder & CEO Message",
+      "author": "Abdullah Al Hasani",
+      "role": "Founder & Chief Executive Officer",
+      "body": "Since our founding in 2016, OSAN GROUP has moved forward guided by an unwavering vision and high ambitions. Year after year, we have expanded strategically by launching focused enterprises and forging impactful local and international alliances that deliver end-to-end solutions for entrepreneurs, corporates, and cross-border investors. Today, we take immense pride in our active footprint across key commercial industries, reinforcing Oman's economic fabric and aligning our trajectory with the ambitious targets of Oman Vision 2040. Everything we have built reflects the sustained trust of our clients, the dedication of our national workforce, and the strength of our partners. We remain committed to continuous innovation and institutional excellence to unlock lasting value for our stakeholders and our nation."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "desc": "To be the premier and trusted partner in integrated business and investment solutions across the Sultanate of Oman, advancing institutional excellence, sustainable development, and the goals of Oman Vision 2040."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "desc": "To deliver a cohesive ecosystem of innovative services and business solutions via specialized corporate subsidiaries, qualified national talent, and high-impact strategic partnerships, adhering to the highest benchmarks of quality and transparency to stimulate private sector expansion and national economic resilience."
+    },
+    "values": {
+      "title": "Core Values",
+      "items": [
+        {
+          "id": "01",
+          "name": "Professionalism",
+          "desc": "Delivering every service according to disciplined international and local professional standards."
+        },
+        {
+          "id": "02",
+          "name": "Innovation",
+          "desc": "Developing agile, modern solutions that address dynamic market shifts and future industry demands."
+        },
+        {
+          "id": "03",
+          "name": "Excellence & Quality",
+          "desc": "Constantly elevating performance benchmarks to generate added value and deliver unmatched client experiences."
+        },
+        {
+          "id": "04",
+          "name": "Team Spirit",
+          "desc": "Fostering collaboration, shared accountability, and cross-subsidiary integration to achieve collective milestones."
+        },
+        {
+          "id": "05",
+          "name": "Integrity & Transparency",
+          "desc": "Conducting all business relationships on foundations of ethical conduct, clarity, and enduring credibility."
+        },
+        {
+          "id": "06",
+          "name": "Social Responsibility",
+          "desc": "Playing an active role in civic development, community empowerment, and national progress."
+        },
+        {
+          "id": "07",
+          "name": "Sustainability",
+          "desc": "Driving responsible, long-term commercial growth that aligns with national goals and preserves operational durability."
+        },
+        {
+          "id": "08",
+          "name": "Customer Focus",
+          "desc": "Deeply understanding the operational realities of clients and architecting solutions that fulfill their objectives with precision."
+        }
+      ]
+    }
+  },
+  "companies": {
+    "title": "Our Group Companies & Brands",
+    "osbic": {
+      "name": "OSBIC International",
+      "tagline": "Your Premier Corporate Gateway to GCC Business Expansion",
+      "desc": "Established in 2011, OSBIC International is a recognized leader in enterprise formation, foreign investment advisory, and corporate government liaison services across the GCC. Backed by more than 15 years of institutional experience, OSBIC has empowered more than 3,000 corporate entities, foreign investors, and entrepreneurs.",
+      "services": [
+        "Commercial Registration (CR) Issuance & Amendments",
+        "Foreign Capital Investment Setup & Structuring",
+        "Comprehensive PRO & Government Liaison Operations",
+        "Investor, Executive & Labor Visa Clearances"
+      ]
+    },
+    "maisarah": {
+      "name": "Maisarah Auditing & Financial Consultant",
+      "tagline": "Financial Precision, Regulatory Clarity, and Sustainable Growth",
+      "desc": "Maisarah operates as a specialized advisory firm staffed by senior chartered accountants and financial analysts. The firm provides enterprises with analytical depth, rigorous compliance frameworks, and proactive fiscal strategies tailored to Oman's regulatory landscape.",
+      "services": [
+        "Tax Advisory & Compliance (CIT, VAT)",
+        "Auditing & Assurance",
+        "Financial Analysis",
+        "Feasibility Studies",
+        "Accounting Services",
+        "Bookkeeping & Payroll"
+      ]
+    },
+    "service_centers": {
+      "name": "Administrative & Service Centers Network",
+      "tagline": "Muscat’s Leading Executive & Regulatory Facilitation Hubs",
+      "branches": {
+        "asas": {
+          "name": "Asas Services Center",
+          "location": "Ghala",
+          "desc": "An advisory knowledge center providing proactive administrative counsel, investor support, and continuous tracking of major economic developments such as IPOs and regulatory shifts."
+        },
+        "masar": {
+          "name": "Masar Services Center",
+          "location": "Al Mawaleh",
+          "desc": "A dedicated tax and regulatory compliance center helping businesses organize filings, adhere to Omani laws, and avoid statutory penalties."
+        },
+        "amer": {
+          "name": "Amer Service Center",
+          "location": "Ruwi",
+          "desc": "Positioned in Muscat's central commercial corridor, Amer specializes in rapid company setup, regulatory follow-ups, and corporate PRO documentation."
+        },
+        "tamkeen": {
+          "name": "Tamkeen Services Center",
+          "location": "Al Khuwair",
+          "desc": "A comprehensive hub for citizens and resident entrepreneurs to manage commercial registrations, municipal licenses, and Ministry of Labour/manpower affairs."
+        }
+      }
+    },
+    "nameer": {
+      "name": "Nameer Properties",
+      "tagline": "Full-Spectrum Real Estate Management, Brokerage & Investment",
+      "desc": "Headquartered in Muscat, Nameer Properties delivers end-to-end real estate brokerage, property management, and asset development services for residential, commercial, and industrial portfolios.",
+      "services": [
+        "Professional Property & Facility Management",
+        "Investor Acquisition & Asset Matching",
+        "Multi-Channel Real Estate Marketing",
+        "Structured Sales & Leasing Management",
+        "Efficient Project Development",
+        "Tailored Advisory & Investment Structuring"
+      ]
+    },
+    "misk": {
+      "name": "MUSK Business Center",
+      "tagline": "Modern, Flexible & Connected Workspaces in the Heart of Muscat",
+      "desc": "Situated in Ghala's prime commercial district, MUSK Business Center is an integrated coworking, private serviced office, and business support facility crafted for growing teams, modern consultants, and startups.",
+      "features": [
+        "Modern private executive offices and open workstations",
+        "Competitive pricing with flexible lease terms",
+        "Comprehensive business amenities and meeting suites",
+        "Inspiring, productivity-focused corporate community"
+      ]
+    },
+    "osan_studio": {
+      "name": "Osan Studio",
+      "tagline": "Creative Strategy, Digital Media & Brand Engineering",
+      "desc": "The creative and digital communications arm of the group, transforming strategic vision into brand identity, digital products, high-impact marketing campaigns, and multimedia production.",
+      "services": [
+        "Corporate Branding & Visual Identity",
+        "Strategic Performance Marketing",
+        "Web & Interactive Experience Design",
+        "Commercial Video & Media Production"
+      ]
+    },
+    "omca": {
+      "name": "OMCA Coffee",
+      "tagline": "Specialty Coffee Culture & Exceptional Social Spaces",
+      "desc": "OSAN GROUP's signature brand in specialty hospitality, dedicated to artisanal coffee roasting, exceptional cafe atmospheres, and engaging community hubs."
+    },
+    "osan_holding": {
+      "name": "Osan Holding",
+      "tagline": "Strategic Asset Allocation and Long-Term Value Creation",
+      "desc": "The investment engine of OSAN GROUP, steering a diversified portfolio across high-growth industries, developing strategic joint ventures, and driving long-term economic returns.",
+      "strategic_focus": [
+        "Revenue source diversification",
+        "Targeted investments in promising sectors",
+        "Sustainable strategic alliances",
+        "Empowering the Omani private economy"
+      ],
+      "portfolio": [
+        "Maxphone Oman",
+        "United Way Design",
+        "Rakaiz Al Bunyan Real Estate Development",
+        "Ozone Travel & Tourism",
+        "Al Somow for Business & Investment",
+        "Meethaq Contracting"
+      ]
+    },
+    "customs": {
+      "name": "Customs Clearance Division",
+      "tagline": "Streamlined Trade Compliance and Fast-Track Logistics",
+      "desc": "Delivering agile customs brokerage, tariff classification, and freight documentation services at all Omani sea, air, and land ports, ensuring strict regulatory adherence and uninterrupted supply chain movement."
+    },
+    "travel": {
+      "name": "Travel & Tourism Division",
+      "tagline": "Seamless Corporate Mobility & Inspiring Global Journeys",
+      "desc": "A dedicated travel management entity providing bespoke corporate travel itineraries, commercial airline ticketing, worldwide hotel arrangements, visa concierge, and outbound/inbound tourism programs."
+    }
+  },
+  "icv": {
+    "title": "In-Country Value (ICV)",
+    "subtitle": "Building a Resilient, Self-Sustaining National Economy",
+    "desc": "At OSAN GROUP, In-Country Value (ICV) is a core national responsibility. In complete harmony with the strategic pillars of Oman Vision 2040, we channel resources, technology, and career progression into the Sultanate's economic ecosystem.",
+    "pillars": [
+      {
+        "name": "SME Enablement",
+        "desc": "Providing specialized advisory, financial, and logistical platforms that help domestic micro-enterprises and startups scale sustainably."
+      },
+      {
+        "name": "Empowering Omani Talent (61%+)",
+        "desc": "Prioritizing the recruitment, mentorship, and career progression of qualified Omani nationals throughout executive and technical positions."
+      },
+      {
+        "name": "Local Supply Chain Support",
+        "desc": "Sourcing goods, professional subcontracting, and materials from Omani vendors and local producers to keep capital circulating within the country."
+      },
+      {
+        "name": "Attracting Inward Foreign Investment",
+        "desc": "Providing comprehensive setup, legal, tax, and licensing services to global investors entering the Sultanate."
+      },
+      {
+        "name": "Private Sector Development",
+        "desc": "Delivering corporate services that enhance business governance, reporting accuracy, and corporate survival rates."
+      },
+      {
+        "name": "Knowledge Transfer & Strategic Alliances",
+        "desc": "Teaming up with global and regional industry pioneers to integrate modern technology and practices into the Omani business landscape."
+      },
+      {
+        "name": "Driving Oman Vision 2040",
+        "desc": "Focusing on economic diversification, knowledge-based business, and sustainable job creation."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with OSAN GROUP headquarters or our subsidiaries",
+    "address_label": "Head Office",
+    "address": "Bldg No: 271, Off No: 8, Ghala, Muscat, Sultanate of Oman",
+    "phone_label": "Direct Lines",
+    "phones": [
+      "+968 7259 6532",
+      "+968 9773 0083"
+    ],
+    "email_label": "Email",
+    "email": "info@osangroupoman.com",
+    "website_label": "Website",
+    "website": "osangroupoman.com",
+    "form": {
+      "name": "Full Name",
+      "email": "Corporate Email",
+      "phone": "Phone Number / WhatsApp",
+      "department": "Subsidiary / Topic",
+      "message": "Message / Request",
+      "submit": "Send Inquiry"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+:root {
+  /* Osan Brand Style Sheet Primary Colors */
+  --osan-blue: #2473AB;
+  --osan-blue-rgb: 36, 115, 171;
+  --osan-grey: #595959;
+  --osan-grey-rgb: 89, 89, 89;
+  --osan-light: #F7F7F7;
+  --osan-light-rgb: 247, 247, 247;
+
+  /* Derived Extensions */
+  --osan-deep: #1B5683;
+  --osan-deep-rgb: 27, 86, 131;
+  --osan-sky: #E4EEF6;
+  --osan-sky-rgb: 228, 238, 246;
+  --osan-ink: #2B2B2B;
+  --osan-ink-rgb: 43, 43, 43;
+
+  /* Company Identity Accents */
+  --color-osbic: #2A93D5;
+  --color-maisarah: #8F1D38;
+  --color-nameer: #0E544A;
+  --color-omca: #6F182A;
+  --color-studio: #2E4960;
+  --color-studio-orange: #EA580C;
+  --color-asas: #A88836;
+  --color-masar: #0095A8;
+  --color-amer-black: #1E293B;
+  --color-amer-red: #D62828;
+  --color-amer-green: #1B7340;
+  --color-tamkeen: #234338;
+  --color-misk: #514E45;
+
+  /* Signature Asymmetric Border Radius (LTR default) */
+  --radius-signature: 72px 8px 8px 8px;
+  --radius-signature-reverse: 8px 72px 8px 8px;
+  --radius-card: 20px;
+}
+
+[dir="rtl"] {
+  /* Signature Asymmetric Border Radius (RTL mirrored) */
+  --radius-signature: 8px 72px 8px 8px;
+  --radius-signature-reverse: 72px 8px 8px 8px;
+}
+
