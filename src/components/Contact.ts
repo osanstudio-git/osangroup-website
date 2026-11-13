@@ -22,9 +22,10 @@ export class Contact {
   private render(): void {
     const isAr = i18n.isRTL();
     const t = (k: string, fb: string) => i18n.t(k, fb);
-    const hqMapQuery = encodeURIComponent('Building 271, Grand Mosque St, Ghala, Muscat, Oman');
-    const hqMapEmbedUrl = `https://maps.google.com/maps?q=${hqMapQuery}&z=15&hl=${isAr ? 'ar' : 'en'}&output=embed`;
-    const hqMapExternalUrl = `https://www.google.com/maps/search/?api=1&query=${hqMapQuery}`;
+    const hqLat = 23.5815123;
+    const hqLng = 58.3382024;
+    const hqMapEmbedUrl = `https://maps.google.com/maps?q=${hqLat},${hqLng}&z=17&hl=${isAr ? 'ar' : 'en'}&output=embed`;
+    const hqMapExternalUrl = 'https://maps.app.goo.gl/BovRcXnTPCF6eJJAA';
 
     this.container.innerHTML = `
       <div class="max-w-7xl mx-auto space-y-12 sm:space-y-14">
