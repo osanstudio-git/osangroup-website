@@ -40,9 +40,10 @@ export const COMPANIES_LIST: CompanyEntity[] = [
     descEn: 'Established in 2011, OSBIC International is a recognized leader in enterprise formation, foreign investment advisory, and corporate government liaison services across the GCC. Backed by more than 15 years of institutional experience, OSBIC has empowered more than 3,000 corporate entities, foreign investors, and entrepreneurs.',
     descAr: 'منذ تأسيسها عام ٢٠١١، رسخت OSBIC International مكانتها كإحدى الشركات الرائدة في مجال تأسيس الأعمال والخدمات المؤسسية في دول مجلس التعاون الخليجي. وبخبرة تتجاوز ١٥ عامًا، ساهمت الشركة في دعم أكثر من ٣,٠٠٠ رائد أعمال ومستثمر وشركة.',
     established: '2011',
-    locationEn: 'Muscat HQ, Sultanate of Oman',
-    locationAr: 'المقر الرئيسي، مسقط، سلطنة عُمان',
-    mapQuery: 'OSBIC International, Al Khuwair, Muscat, Oman',
+    locationEn: 'Bldg 271, Off 7, Grand Mosque St, Ghala, Muscat',
+    locationAr: 'مبنى ٢٧١، مكتب ٧، شارع الجامع الأكبر، غلا، مسقط',
+    mapQuery: 'Building 271, Grand Mosque St, Ghala, Muscat, Oman',
+    googleMapsUrl: 'https://business.google.com/n/4737591840365789982/profile?hl=en&fid=15898466238469475849',
     servicesEn: [
       'Commercial Registration (CR) Issuance & Amendments',
       'Foreign Capital Investment Setup & 100% Ownership Structuring',
